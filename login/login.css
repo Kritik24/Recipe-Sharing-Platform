@@ -1,0 +1,51 @@
+body{
+   
+   background-image: url(/photos/landscape-with-lighthouse.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+ 
+}
+
+.main{
+    display: flex;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(8px);
+    height: 280px;
+    width: 320px;
+    margin: 31vh;
+    border: 3px solid rgb(0, 255, 255,0.6);
+    font-weight: bold;
+}
+h1{
+   margin-left: 20px;
+   text-decoration:underline;
+   font-weight: bold;
+}
+
+
+input{
+    padding: 8px;
+}
+
+.login{
+    font-weight: bolder;
+    width: 30%;
+     border: none;
+     cursor: pointer;
+     font-size: 18px;
+     border-radius: 5px;    
+}
+.login:hover{
+    color: black;
+    background-color: aqua;
+    transition: 0.5s;    
+}
+
+a:hover{
+    color:  aqua;
+    transition: ease-in-out 0.5s;
+
+}
